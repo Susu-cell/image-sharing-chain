@@ -29,7 +29,7 @@ def get_args_parser():
     parser.add_argument('--model', default='SNP', type=str, help='social network provenance')
     parser.add_argument('--t', default='Test', type=str, help='test validation train')
     parser.add_argument('--extra_features', default='HEADER+META', type=str, help='[DCT,META,HEADER]')  
-    parser.add_argument('--data_dir', default='/xxx/xxx/xxx/', type=str,
+    parser.add_argument('--data_dir', default='/xxx/xxx/xxx/F-4OSN-SC/', type=str,
                         help='path of train data') 
     parser.add_argument('--train_mode', default='xxx', type=str, help='aim of train')
     parser.add_argument('--epoch', default=150, type=int, help='number of train epoches')  # epoch
